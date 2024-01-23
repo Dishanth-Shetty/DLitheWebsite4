@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascading Style Sheet | Selectors</title>
+    <style>
+         html,body{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+        #h1{
+            background-color: blue;
+            font-size: 50px;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            margin-top: 0;
+            font-weight: bold;
+        }
+        button{
+            background-color: rgb(8, 207, 8);
+            width: 130px;
+            height: 40px;
+            border-radius: 10px;
+            color: #fff;
+            font-weight: bolder;
+            cursor: pointer;
+            border: 2px solid rgb(1, 34, 1);
+            font-size: 20px;
+        }
+        button:hover{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="h1">CSS Selectors</h1>
+        <p>A CSS selector selects the HTML element(s) you want to style.</p>
+
+        <h1>CSS Selectors</h1>
+        <p>CSS selectors are used to "find" (or select) the HTML elements you want to style.</p>
+        
+        <p><b>We can divide CSS selectors into five categories:</b></p>
+        
+        <h1>Simple selectors (select elements based on name, id, class)</h1>
+        <ul>
+            <li>Combinator selectors (select elements based on a specific relationship between them)</li>
+            <li>Pseudo-class selectors (select elements based on a certain state)</li>
+            <li>Pseudo-elements selectors (select and style a part of an element)</li>
+            <li>Attribute selectors (select elements based on an attribute or attribute value)</li>
+        </ul>
+        <p>This page will explain the most basic CSS selectors.</p>
+        <h1>The CSS element Selector</h1>
+        <p>The element selector selects HTML elements based on the element name.</p>
+
+        <h1>The CSS id Selector</h1>
+        <p>The id selector uses the id attribute of an HTML element to select a specific element.</p>
+        <p>The id of an element is unique within a page, so the id selector is used to select one unique element!</p>
+        <p>To select an element with a specific id, write a hash (#) character, followed by the id of the element.</p>
+
+        <h1>The CSS class Selector</h1>
+        <p>The class selector selects HTML elements with a specific class attribute.</p>
+        <p>To select elements with a specific class, write a period (.) character, followed by the class name.</p>
+
+        <h1>The CSS Universal Selector</h1>
+        <p>The universal selector (*) selects all HTML elements on the page.</p>
+
+        <h1>The CSS Grouping Selector</h1>
+        <p>The grouping selector selects all the HTML elements with the same style definitions.</p>
+
+        <img src="Images/image 5.jpg" alt="image 5" width="50%"><br>
+
+        <h1>Definition and Usage</h1>
+        <p>The font property is a shorthand property for:</p>
+        <ul>
+            <li>font-style</li>
+            <li>font-variant</li>
+            <li>font-weight</li>
+            <li>font-size/line-height</li>
+            <li>font-family</li>
+        </ul>
+        <p>The font-size and font-family values are required. If one of the other values is missing, their default value are used.</p>
+
+<p><b>Note: </b>The line-height property sets the space between lines.</p>
+<hr>
+<h1>Inline CSS</h1>
+<p>An inline CSS is used to apply a unique style to a single HTML element.</p>
+<p>An inline CSS uses the style attribute of an HTML element.</p>
+
+<hr>
+<h1>Internal CSS</h1>
+<p>An internal CSS is used to define a style for a single HTML page.</p>
+<hr>
+<h1>External CSS</h1>
+<p>An external style sheet is used to define the style for many HTML pages.</p>
+<hr>
+<h1>CSS Colors, Fonts and Sizes</h1>
+<p>Here, we will demonstrate some commonly used CSS properties. You will learn more about them later.</p>
+<p>The CSS color property defines the text color to be used.</p>
+<p>The CSS font-family property defines the font to be used.</p>
+<p>The CSS font-size property defines the text size to be used.</p>
+
+<a href="htmltags.html"><button type="button">&lt Previous</button></a>
+</body>
+</html>
